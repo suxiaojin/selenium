@@ -50,7 +50,8 @@ time.sleep(3)
 # browser.find_element_by_css_selector('input#kw')
 #元素定位：find_element_by_css_selector()通过属性值
 #find_element_by_css_selector("[name='wd']")
-
+#css同样也可以实现逻辑运算，同时匹配两个属性，这里跟xpath不一样，无需写and关键字
+#find_element_by_css_selector('.nui-ipt-input''[maxlength="256"]')
 '''
 
 在做web应用的自动化测试时，定位元素是必不可少的，这个过程经常会碰到定位不到元素的情况（报selenium.common.exceptions.NoSuchElementException），一般可以从以下几个方面着手解决：

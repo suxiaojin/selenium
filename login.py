@@ -13,14 +13,26 @@ def login(username,password):
     submit=driver.find_element_by_css_selector('#dologin')
     submit.click()
     time.sleep(8)
+    #跳出框架
     driver.switch_to_default_content()
     driver.find_element_by_xpath('//span[contains(text(),"写 信")]').click()
+    #收件人地址
+    driver.find_element_by_xpath('//*[@class="nui-editableAddr-ipt"]').send_keys(r'suxiaojin928380@sina.com')
+    #邮件主题
+    driver.find_element_by_css_selector('.nui-ipt-input''[maxlength="256"]').send_keys('auto test2')
 
-    recive=driver.find_element_by_xpath('//*[@class= "js-component-emailcontainer nui-multiLineIpt C-multiLineIpt nui-ipt"]')
-    recive.send_keys('sdsdsd')
- #   driver.find_element_by_css_selector('#_mail_input_2_226').send_keys('auto test')
-
-
+    #这里是在正文输入框中写内容,有iframe框架，所以需要进入框架先
+    driver.switch_to_frame(driver.find_element_by_class_name('APP-editor-iframe'))
+    driver.find_element_by_css_selector('.nui-scroll').send_keys('this is a text email2')
+    # 跳出框架
+    driver.switch_to_default_content()
+    driver.find_element_by_xpath('//span[contains(text(),"发送") and @class="nui-btn-text"]').click()
+    try:
+        assert '发送成功' in driver.page_source
+    except AssertionError:
+        print('邮件发送成功')
+    else:
+        print('邮件发送失败')
 
 
 if __name__=='__main__':
