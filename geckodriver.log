@@ -1300,3 +1300,9 @@ JavaScript warning: https://s3.music.126.net/sep/s/2/pt_musicbox_mailplayer.js?8
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400AB,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
 
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
