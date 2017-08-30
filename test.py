@@ -66,10 +66,51 @@ username=driver.find_element_by_name('email')
 username.clear()
 '''
 
+'''
+iframe定位：
+
+iframe的切换是默认支持id和name的方法的，当然实际情况中会遇到没有id属性和name属性为空的情况，这时候就需要先定位iframe
+driver.switch_to.frame(driver.find_element_by_class_name('APP-editor-iframe'))
+当iframe上的操作完后，想重新回到主页面上操作元素，这时候，就可以用switch_to.default_content()方法返回到主页面
+'''
+
+'''
+chrome操作js，操作滚动条
+js = "var q=document.body.scrollTop=0"
+driver.execute_script(js)
+'''
+
+'''
+firefox操作js，操作滚动条
+
+滚动条回到顶部：
+
+js="var q=document.getElementById('id').scrollTop=0"
+driver.execute_script(js）
+2.滚动条拉到底部
+
+js="var q=document.documentElement.scrollTop=10000"
+driver.execute_script(js)
+
+3.这里可以修改scrollTop 的值，来定位右侧滚动条的位置，0是最上面，10000是最底部。
+'''
+
+#获取cookies
+#print(browser.get_cookies())
+#browser.get_cookies(name="cnblogscookie")
+
+#q清除指定的cookie
+#browser.delete_cookie(name=".cnblogcookie")
+
+#刷新页面
+#browser.refresh()
+
+
+# 添加cookie的值
+# add_cookie(cookie_dict)
 
 
 
-time.sleep(3)
 # #设置窗口大小540*960
 
 # browser.set_window_size(540,960)
