@@ -109,7 +109,19 @@ driver.execute_script(js)
 # 添加cookie的值
 # add_cookie(cookie_dict)
 
+'''
+关于from selenium.webdriver.support import expected_conditions as EC
+1.判断title是否包含某个字符串
+title=EC.title_is('百度一下')(driver)
+或者
+title=EC.title_contains('百度')(driver)
 
+
+
+
+
+
+'''
 
 # #设置窗口大小540*960
 

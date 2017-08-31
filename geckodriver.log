@@ -1307,3 +1307,430 @@ Full message: TypeError: NetworkError when attempting to fetch resource.
 Full stack: 
 *************************
 1504061575532	Marionette	INFO	Ceased listening
+1504156455184	geckodriver	INFO	Listening on 127.0.0.1:54193
+1504156456198	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504156457729	Marionette	INFO	Listening on port 54202
+1504156457778	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504156457969	Marionette	DEBUG	loaded listener.js
+1504156457995	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:14:18.038 plugin-container[2846:88625] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9637, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:14:18.040 plugin-container[2846:88625] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9907, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504156458331	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504156458332	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504156458608	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504156460094	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504156495277	Marionette	INFO	Ceased listening
+1504156504676	geckodriver	INFO	Listening on 127.0.0.1:54264
+1504156505700	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504156507214	Marionette	INFO	Listening on port 54273
+1504156507274	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504156507434	Marionette	DEBUG	loaded listener.js
+1504156507460	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:15:07.500 plugin-container[2870:89371] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:15:07.500 plugin-container[2870:89371] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9703, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504156507812	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504156507813	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504156508063	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504156510341	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504156530486	Marionette	INFO	Ceased listening
+1504156680249	geckodriver	INFO	Listening on 127.0.0.1:54336
+1504156681275	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504156682767	Marionette	INFO	Listening on port 54345
+1504156682848	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504156683013	Marionette	DEBUG	loaded listener.js
+1504156683041	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:18:03.084 plugin-container[2907:90910] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:18:03.086 plugin-container[2907:90910] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504156683416	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504156683416	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504156683717	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504156685335	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1504156746129	geckodriver	INFO	Listening on 127.0.0.1:54420
+1504156747152	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504156748657	Marionette	INFO	Listening on port 54429
+1504156748724	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504156748877	Marionette	DEBUG	loaded listener.js
+1504156748904	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:19:08.946 plugin-container[2934:92059] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:19:08.948 plugin-container[2934:92059] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504156750058	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504156750059	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504156750503	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504156752587	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1504156763541	Marionette	INFO	Ceased listening
+1504156765464	Marionette	INFO	Ceased listening
+1504156904164	geckodriver	INFO	Listening on 127.0.0.1:54490
+1504156905183	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504156906715	Marionette	INFO	Listening on port 54499
+1504156906764	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504156906938	Marionette	DEBUG	loaded listener.js
+1504156906965	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:21:47.005 plugin-container[2989:93683] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:21:47.007 plugin-container[2989:93683] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504156907808	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504156907808	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504156908145	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504156910731	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504156974872	geckodriver	INFO	Listening on 127.0.0.1:54552
+1504156975892	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504156977439	Marionette	INFO	Listening on port 54561
+1504156977510	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504156977661	Marionette	DEBUG	loaded listener.js
+1504156977688	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:22:57.728 plugin-container[3016:94663] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:22:57.730 plugin-container[3016:94663] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504156979072	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504156979073	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504156979578	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504156982241	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504157136364	Marionette	INFO	Ceased listening
+1504157232320	geckodriver	INFO	Listening on 127.0.0.1:54659
+1504157233345	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504157234880	Marionette	INFO	Listening on port 54668
+1504157234922	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504157235103	Marionette	DEBUG	loaded listener.js
+1504157235129	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:27:15.173 plugin-container[3075:97581] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:27:15.175 plugin-container[3075:97581] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504157235698	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504157235699	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504157236024	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504157237460	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1504157276325	Marionette	INFO	Ceased listening
+1504157363705	geckodriver	INFO	Listening on 127.0.0.1:54719
+1504157364725	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504157366392	Marionette	INFO	Listening on port 54728
+1504157366439	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504157366641	Marionette	DEBUG	loaded listener.js
+1504157366666	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:29:26.706 plugin-container[3110:98820] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:29:26.708 plugin-container[3110:98820] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9907, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504157367072	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504157367072	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504157367310	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504157369083	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504157382640	Marionette	INFO	Ceased listening
+1504157409202	geckodriver	INFO	Listening on 127.0.0.1:54787
+1504157410222	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504157411723	Marionette	INFO	Listening on port 54796
+1504157411784	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504157411946	Marionette	DEBUG	loaded listener.js
+1504157411972	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:30:12.016 plugin-container[3129:99350] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:30:12.017 plugin-container[3129:99350] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504157412306	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504157412307	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504157412889	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504157415076	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504157422826	Marionette	INFO	Ceased listening
+1504157803436	geckodriver	INFO	Listening on 127.0.0.1:54867
+1504157804456	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504157805973	Marionette	INFO	Listening on port 54876
+1504157806030	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504157806195	Marionette	DEBUG	loaded listener.js
+1504157806223	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:36:46.263 plugin-container[3209:101614] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x920b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:36:46.265 plugin-container[3209:101614] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504157806562	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504157806562	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504157806823	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504157809083	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504157820785	geckodriver	INFO	Listening on 127.0.0.1:54944
+1504157821805	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504157823303	Marionette	INFO	Listening on port 54953
+1504157823372	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504157823534	Marionette	DEBUG	loaded listener.js
+1504157823561	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:37:03.601 plugin-container[3220:101915] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:37:03.603 plugin-container[3220:101915] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504157823927	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504157823927	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504157824192	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504157825648	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504157835187	Marionette	INFO	Ceased listening
+1504157837333	Marionette	INFO	Ceased listening
+1504158019325	geckodriver	INFO	Listening on 127.0.0.1:55221
+1504158020347	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504158021917	Marionette	INFO	Listening on port 55230
+1504158022023	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504158022149	Marionette	DEBUG	loaded listener.js
+1504158022176	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:40:22.217 plugin-container[3313:104997] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:40:22.218 plugin-container[3313:104997] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504158022703	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504158022704	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504158023240	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504158026750	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504158037250	Marionette	INFO	Ceased listening
+1504158045014	geckodriver	INFO	Listening on 127.0.0.1:55300
+1504158046028	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504158047553	Marionette	INFO	Listening on port 55309
+1504158047600	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504158047782	Marionette	DEBUG	loaded listener.js
+1504158047820	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 13:40:47.849 plugin-container[3330:105458] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 13:40:47.851 plugin-container[3330:105458] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9907, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504158048357	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504158048357	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504158048901	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504158052483	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+console.log: plural-form.js: Index #1 of '再显示一个节点；显示全部 #1 个节点' for value 301 is invalid -- plural rule #1;
+
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 403: TypeError: quads is undefined
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 403: TypeError: quads is undefined
+console.log: plural-form.js: Index #1 of '再显示一个节点；显示全部 #1 个节点' for value 602 is invalid -- plural rule #1;
+
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 403: TypeError: quads is undefined
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 403: TypeError: quads is undefined
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: can't convert null to object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/netmonitor/components/request-list-header.js, line 72: TypeError: this.refs.header is undefined
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+2017-08-31 16:12:36.808 plugin-container[4796:158859] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 16:12:36.810 plugin-container[4796:158859] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+console.log: plural-form.js: Index #1 of '再显示一个节点；显示全部 #1 个节点' for value 301 is invalid -- plural rule #1;
+
+console.log: plural-form.js: Index #1 of '再显示一个节点；显示全部 #1 个节点' for value 301 is invalid -- plural rule #1;
+
+console.log: plural-form.js: Index #1 of '再显示一个节点；显示全部 #1 个节点' for value 301 is invalid -- plural rule #1;
+
+console.log: plural-form.js: Index #1 of '再显示一个节点；显示全部 #1 个节点' for value 301 is invalid -- plural rule #1;
+
+console.log: plural-form.js: Index #1 of '再显示一个节点；显示全部 #1 个节点' for value 301 is invalid -- plural rule #1;
+
+console.log: plural-form.js: Index #1 of '再显示一个节点；显示全部 #1 个节点' for value 301 is invalid -- plural rule #1;
+
+1504169567218	geckodriver	INFO	Listening on 127.0.0.1:54631
+1504169568256	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504169569918	Marionette	INFO	Listening on port 54644
+1504169569965	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504169570177	Marionette	DEBUG	loaded listener.js
+1504169570205	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 16:52:50.246 plugin-container[5281:174635] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 16:52:50.249 plugin-container[5281:174635] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504169571498	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504169571499	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504169572294	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504169575874	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+console.log: plural-form.js: Index #1 of '再显示一个节点；显示全部 #1 个节点' for value 301 is invalid -- plural rule #1;
+
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1504170303161	geckodriver	INFO	Listening on 127.0.0.1:56956
+1504170304193	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504170305762	Marionette	INFO	Listening on port 56969
+1504170305862	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504170306002	Marionette	DEBUG	loaded listener.js
+1504170306030	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 17:05:06.070 plugin-container[5411:179338] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 17:05:06.071 plugin-container[5411:179338] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504170307657	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504170307658	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504170308632	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504170311604	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504170473848	Marionette	INFO	Ceased listening
+1504170476152	Marionette	INFO	Ceased listening
+1504170520369	geckodriver	INFO	Listening on 127.0.0.1:57892
+1504170521389	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504170522950	Marionette	INFO	Listening on port 57905
+1504170523000	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504170523194	Marionette	DEBUG	loaded listener.js
+1504170523221	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 17:08:43.259 plugin-container[5457:181021] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 17:08:43.260 plugin-container[5457:181021] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504170524323	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504170524324	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504170524951	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504170527001	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504170716077	geckodriver	INFO	Listening on 127.0.0.1:58645
+1504170717102	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504170718630	Marionette	INFO	Listening on port 58658
+1504170718685	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504170718868	Marionette	DEBUG	loaded listener.js
+1504170718894	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 17:11:58.934 plugin-container[5494:182816] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9637, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 17:11:58.935 plugin-container[5494:182816] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504170719249	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504170719250	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504170719509	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504170721090	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+1504170776507	geckodriver	INFO	Listening on 127.0.0.1:59024
+1504170777531	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504170779092	Marionette	INFO	Listening on port 59037
+1504170779138	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504170779327	Marionette	DEBUG	loaded listener.js
+1504170779355	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 17:12:59.392 plugin-container[5519:183894] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 17:12:59.393 plugin-container[5519:183894] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504170780525	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504170780525	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504170781176	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504170783500	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1504170957248	Marionette	INFO	Ceased listening
+1504171256559	geckodriver	INFO	Listening on 127.0.0.1:60525
+1504171257582	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504171259180	Marionette	INFO	Listening on port 60538
+1504171259277	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504171259461	Marionette	DEBUG	loaded listener.js
+1504171259493	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 17:20:59.532 plugin-container[5625:187825] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 17:20:59.533 plugin-container[5625:187825] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504171259835	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504171259835	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504171260094	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504171261719	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+console.log: plural-form.js: Index #1 of '再显示一个节点；显示全部 #1 个节点' for value 301 is invalid -- plural rule #1;
+
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1504172409149	geckodriver	INFO	Listening on 127.0.0.1:63873
+1504172410185	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504172411655	Marionette	INFO	Listening on port 63886
+1504172411761	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504172411926	Marionette	DEBUG	loaded listener.js
+1504172411953	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-31 17:40:11.995 plugin-container[5774:194110] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 17:40:11.997 plugin-container[5774:194110] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504172412630	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504172412630	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504172413126	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images.google.com/"
+1504172414826	Marionette	DEBUG	Received DOM event "pageshow" for "https://images.google.com/"
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1504173447846	Marionette	INFO	Ceased listening
+1504173449798	Marionette	INFO	Ceased listening
+1504173451898	Marionette	INFO	Ceased listening
