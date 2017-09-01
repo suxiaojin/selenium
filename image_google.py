@@ -5,6 +5,12 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.keys import Keys
 from pyquery import PyQuery as pq
+import time
+import requests
+import os
+from hashlib import md5
+from requests.exceptions import RequestException
+
 
 
 def search():
@@ -14,35 +20,45 @@ def search():
     get_image()
 
 
-
-
-
 def get_image():
-#    try:
-        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,'#rg_s .rg_bx rg_di rg_el ivg-i')))
-        html=driver.page_source
-        doc=pq(html)
+    pos=0
+    for i in range(10):
+        pos+=i*500
+        js="var q=document.documentElement.scrollTop=%d" %pos
+        driver.execute_script(js)
+        time.sleep(3)
 
-        items=doc('#rg_s .rg_bx rg_di rg_el ivg-i').items()
-        for item in items:
-            product={
-                'url':item.find('.rg_l .rg_ic rg_i').attr('src')
-            }
-            print(product)
-#    except TimeoutException:
-#       get_image()
+    html=driver.page_source
+    doc = pq(html)
+    item=doc('div.rg_bx:nth-child(1)')
+    url=item.find('.rg_l .rg_ic').attr('src')
+
+def download_image(url):
+    print('正在下载:',url)
+    try:
+        response=requests.get(url)
+        if response.status_code==200:
+            save_images(response.content)
+        return None
+    except RequestException:
+        print('请求图片出错')
+        return None
 
 
+def save_images(content):
+    file_path = '{0}/{1}.{2}'.format(os.getcwd(), md5(content).hexdigest(), 'jpg')
+    if not os.path.exists(file_path):
+        with open(file_path, 'wb') as f:
+            f.write(content)
+            f.close()
 
 
 
 
 def main():
- #   try:
+
         search()
 
- #   finally:
-  #      driver.close()
 
 if __name__=='__main__':
     driver = webdriver.Firefox()
